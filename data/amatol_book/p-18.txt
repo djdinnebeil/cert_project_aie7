@@ -1,0 +1,53 @@
+Structures (continued)
+Dormitories and bunkhouses—male: 98
+
+Dormitories—female: 21
+
+Miscellaneous buildings: 140
+
+Army barracks: 24
+
+Y.M.C.A.'s: 4
+
+Individual residences: 11
+
+Multiple houses: 33
+
+Workmen’s houses: 227
+
+Post office: 1
+
+School house: 1
+
+Fire houses: 2
+
+Tent tops: 444
+
+Family apartments—two rooms: 96
+
+Family apartments—four rooms: 179
+
+Family apartments—three rooms: 23
+
+MISCELLANEOUS
+Steel required for plant buildings: 6,000 tons
+
+Square feet of plaster board: 1,350,000
+
+Square feet of “Composite” metal lath: 4,000,000
+
+Ft. B.M. lumber: 30,000,000
+
+Squares of ruberoid: 27,200
+
+Square feet of stucco: 3,550,000
+
+Power driven belt conveyors: 12 miles
+
+Conveyor housing: 5 miles
+
+Fire alarm wire—plant: 40 miles
+
+Fire alarm wire—town: 12 miles
+
+Average buildings built per day: 4

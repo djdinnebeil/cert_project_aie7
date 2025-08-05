@@ -1,0 +1,357 @@
+{
+  "name": "naive_retriever_test",
+  "summary": {
+    "total_runtime": 6.93,
+    "avg_latency": 2.31,
+    "total_tokens": 7810,
+    "total_queries": 3,
+    "total_cost": 0.000872,
+    "avg_tokens_per_query": 2603.33
+  },
+  "latencies": [
+    2.96,
+    2.03,
+    1.94
+  ],
+  "evaluation_result": {
+    "context_recall": 1.0,
+    "faithfulness": 0.9333,
+    "answer_relevancy": 0.6237,
+    "context_entity_recall": 0.4583
+  },
+  "evaluation_cost": {
+    "eval_model": "gpt-4.1-nano",
+    "eval_tokens": 35048,
+    "eval_cost": 0.004515
+  },
+  "prompt_logs_path": "historical_docs_retriever_logs/naive_retriever_test_logs.json",
+  "prompt_logs": [
+    {
+      "prompt_number": 1,
+      "question": "Who was JAMES BLAINE WALKER and what was his role in relation to rapid wartime industrial mobilization?",
+      "response": "James Blaine Walker was the Secretary of the Public Service Commission for the 1st District of New York and an author, notably of \"Fifty Years of Rapid Transit.\" In relation to rapid wartime industrial mobilization, he appears to have played a role as an example of an organized, official figure involved in infrastructure and public services during the period of increased industrial activity, such as in the context of war efforts. However, based on the provided context, there is no specific information indicating that he directly led or organized the wartime industrial mobilization efforts.",
+      "token_usage": {
+        "completion_tokens": 112,
+        "prompt_tokens": 2580,
+        "total_tokens": 2692
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "INTRODUCTION\nBY JAMES BLAINE WALKER\nSecretary Public Service Commission, 1st Dist. New York; Author of \"Fifty Years of Rapid Transit,\" etc.",
+        "Daniel B. Frazier, owner of a great part of the tract on which the new war industry will stand, worked diligently with J. B. Manly, of Somers Point, as his agent, among the few owners of the property who were holding out for bigger prices. They had practically completed their task before the day closed, and the word went out tonight that work on the great plant will positively begin tomorrow.\n\nTwo hundred men will arrive late tonight and this number will be increased to at least 1000 before tomorrow night. ```",
+        "getting people to work from that time on. And we had to take soldier labor and put soldiers in some of these plants. We had considerable labor at the plants after that explosion, and before that we were offering them every sort of inducement to get people to work in those plants, and we had to make it pretty attractive to them.",
+        "war brought a large portion of it into practical use. The Atlantic Loading Company, a corporation formed in New York City, entered into a contract with the Government to build and operate a shell loading plant as the agent of the Government. The officers of the company immediately began looking for a site for the contemplated plant, and this section of New Jersey attracted their attention. It was comparatively isolated and yet traversed by important railroad lines which afforded ample transportation facilities for men and materials. The soil",
+        "In April, 1917, when the United States declared war on Germany, and began the work of enlarging the Army and Navy and providing for the needed supply of food, clothing and munitions, its greatest task was to provide for the manufacture of munitions. The needed men were here; it only remained to draft and drill them. Food and clothing were being produced; it only remained to stimulate production. But to provide for an ample supply of munitions new factories had to be built and peacetime works transformed into gun and shell producers.",
+        "The very nature of the work required an organization of experts. These were drafted from going concerns engaged in large construction and financial enterprises. Loading shell with high explosives is a hazardous undertaking, and the men who formed the Atlantic Loading Company realized this. They summoned to their aid only men of broad experience along similar lines who had proven their fitness in successful work elsewhere. In an incredibly short time a suitable organization was mapped out and the necessary specialists were recruited to head the",
+        "MR. GRAHAM. You were working at it, were you?\nCOL. HAWKINS. Yes, sir.\nMR. GRAHAM. Knowing, as you did, that a picric-acid plant must necessarily be only for use and operation during the war and that after the war was over you would have no further use for such a plant, why were not those buildings made of temporary character, such as would suffice for the period of the war and to be abandoned after the war was over?",
+        "MR. GRAHAM. Gave power for what?\nCOL. HAWKINS. Gave power to the Secretary of War to buy land for purposes of this kind.\nMR. GRAHAM. General power?\nCOL. HAWKINS. Well, he had ample power before to buy cantonments and camp sites and then on May 11, 1918, they gave broader powers, and then we did begin to negotiate for the purchase of various plants and on the 22d of May the Secretary of War delegated authority in the matter of procuring real estate to the Real Estate Service under the Purchase, Storage and Traffic Division.",
+        "To get the materials with which to build was no less difficult. Those were the days of unlimited demand and undeveloped supplies, of congested freight carrying facilities and Government priority orders for shipments. It was easy to order supplies, but quite another matter to get them. The purchasing department of the Company rose to the emergency by organizing a special expediting division. This division dispatched men to various seats of supply, such as the lumber mills of the South, and these men followed the orders placed by the Company",
+        "They learned that the strangers were made up of real estate men, whose work in securing the huge tract on which a shell-loading plant will stand has been practically completed; of construction workers in the employ of the Atlantic Loading Company, of New York, to which has been awarded the work of erecting the plant; and a force of engineers attached to the War Department. ```",
+        "In 1918, a year after the United States entered\nWorld War I, the government purchased 6,000\nacres of land to build a munitions plant and town.\nThe speedy design and extensive use of concrete\nconstruction at Amatol was a major urban\nplanning achievement. In the span of nine\nmonths, the contractor completed houses,\ndormitories, bunk houses, schools, and other\nfacilities to accommodate between 10,000-\n20,000 plant workers and their families. The",
+        "MR. GRAHAM. Did you build buildings there?\nCOL. HAWKINS. We started a plant there in March, 1918, and we went into active operation in July, and very complete operations by the time the armistice was signed. Following that the plant was turned over to the commanding officer and it is now a permanent ordnance plant.\nMR. GRAHAM. Is it proposed to keep this permanently?\nCOL. HAWKINS. Yes, sir; that was turned over to the commanding officer, Col. Miles, and he is doing a certain amount of loading there to-day.\nMR. GRAHAM. Loading what; shells?",
+        "MR. GRAHAM. Was it after the armistice?\nCOL. HAWKINS. No, sir; it was in September of 1918, I should think. But our original submission of the whole scheme was made in November of 1917, and the contracts were let to most of these companies on the 3rd of December, 1917, and the first one in operation that I recollect was the Gillespie Co. loading plant at Morgan, N.J., and the second one in operation was the Atlantic Loading Co. plant and the third the California loading plant; I am unable to state when the Penneman plant got into operation.",
+        "The enterprise combined two separate and distinct undertakings, either of which in itself would require an organization embracing high skill, initiative and intensive working power. One was the rapid construction of a large shell loading plant, the other the building of a town to provide proper quarters for the thousands of workers whose employment was contemplated. To meet the requirements of the Ordnance Department the plant had to be brought to a producing basis at the earliest day possible, and to do this the town had to be built and made",
+        "MR. GRAHAM. Now, let us see about this loading plant. In times of peace is there any purpose for any such plant?\nCOL. HAWKINS. Yes; we have to have some loading facilities. We have done a good deal of it by contractors.\nMR. GRAHAM. How is that?\nCOL. HAWKINS. We have done some by contractors and some in our establishments.\nMR. GRAHAM. Is it the purpose of the Government to try to run this institution in peace times?\nCOL. HAWKINS. Yes, sir.\nMR. GRAHAM. At Amatol?"
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_book/p-07.txt",
+          "_id": "c65ff4bc9f3d4d079e88701adb01aa2f",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-03-07, 1, Tuckerton Beacon, new site selected.txt",
+          "_id": "9c9f4d52c2ed48399b8f76e955401061",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 511.txt",
+          "_id": "cb4b681421504cfa9c9d73bc15d1f83c",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-07.txt",
+          "_id": "0a86bca911064d35abf5977f1b8e745a",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-14.txt",
+          "_id": "90a0f8dc479b43888af32269f7dc7735",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-25.txt",
+          "_id": "e089fb76d9de464f9542271e02c6eac2",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 511.txt",
+          "_id": "ae71eedb4a584b0a947270847707b7ef",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 492.txt",
+          "_id": "766c105c64ec46ac9824e9d48ceb5f57",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-27.txt",
+          "_id": "4b2e8620f5284267a748a05fa49abdf2",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-03-07, 1, Tuckerton Beacon, new site selected.txt",
+          "_id": "5d90ec9d2b404595a3ab4c2c334a387e",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_misc/2015-10-12_amatol_munitions_noyes_musuem_2015.txt",
+          "_id": "9696847d5868411ba6229e965ee84ab5",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 490.txt",
+          "_id": "4b12fecad54c48a19e8f7f5a4dab20b5",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 493.txt",
+          "_id": "d6262f1d1a6f4e558b6579e1116d372c",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-14.txt",
+          "_id": "321b2965eddd48ba8e5979b924bcf42f",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 493.txt",
+          "_id": "7951d5e6724a4e27bcc8e868ae7fc8ff",
+          "_collection_name": "AmatolDocs"
+        }
+      ],
+      "latency": 2.96,
+      "tokens": 2692,
+      "cost": 0.000303,
+      "timestamp": "2025-08-05 02:12:48"
+    },
+    {
+      "prompt_number": 2,
+      "question": "Who was Mr. Hammel and what role did he play in the context of wartime industrial development during World War I?",
+      "response": "Mr. Hammel was the company's Chief Engineer and a member of the American Society of Civil Engineers. In the context of wartime industrial development during World War I, he played a significant role in documenting and presenting the history of the construction and operation of the shell-loading plant and the town of Amatol, New Jersey. His account provides an insightful description of the rapid and large-scale efforts involved in transforming land into a major munitions manufacturing site during the war, highlighting engineering achievements and the efficient organization behind the undertaking.",
+      "token_usage": {
+        "completion_tokens": 105,
+        "prompt_tokens": 2838,
+        "total_tokens": 2943
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "In the following pages Mr. Hammel, the Company's Chief Engineer, and a Member of the American Society of Civil Engineers, has creditably presented an all-too-brief history of this great undertaking, which includes an interesting description of the plant and the town, their construction, operation, capacity, and the efficient organization which made them possible. It is eminently fitting that a permanent record should be made of the achievements of the Company, which may well be proud of its work, for success never attended a larger undertaking",
+        "Early in the year 1918 the Company acquired for the Government a tract of 6000 acres of this land lying near the town of Hammonton, New Jersey. The Company began work on March 4th, 1918, and within a few months had cleared the land, laid out and built a new town and an enormous plant, peopled the former with workmen and equipped the latter with machinery and begun the loading of shell. The transformation of the wilderness into a hive of industry within such a short time was one of the many war-time marvels of American engineering achievement.",
+        "In 1917, the US entered the War. Then, in 1918, the US built a plant to supply munitions to the armed forces. It purchased 6000 acres of land a few miles east of Hammonton, NJ, and built a munitions plant and a town to house the 10,000-20,000 plant workers. The plant made munitions of many different types and sizes, and was called Amatol.\n\nThe town of Amatol was built two miles away. This distance was to protect the workers and families in the event of an accident at the plant.",
+        "from a local newspaper of the time.  The March 9, 1918 issue of the South Jersey Republican gives this account of the activity at the site:  \"Never in history was Hammonton so stirred up as on Sunday and Monday, when announcement was made that the Government had taken land four miles below here and proposed employing twenty thousand hands to erect buildings and load shells for war purposes.  The papers were signed Saturday noon, and Sunday nearly a half hundred army trucks, loaded with tools, lumber and supplies, passed through town to the",
+        "As a result of America’s entry into World War I, Atlantic County received a great expansion of its industrial economic base. The largest result of this expansion was the construction of Amatol, a planned shell-loading munitions plant and workers’ village that once occupied a tract of 6,000 acres between East Hammonton and Elwood. What is fascinating about Amatol and other planned communities is the speed in which they were completed. In just nine months’ time, the new town and manufactory were completed reaching a population of 7,000. Today,",
+        "Gillespie Workmen to Hammonton Special to The Inquirer.\n\nHAMMONTON, N. J., Oct. 7.—It is understood here that several thousand of the workmen from the Gillespie plant, destroyed by an explosion, will come here and work at the Amatol plant. Many additional buildings will be erected, as it is understood that the two concerns will be separate, but under the same government supervision.",
+        "MR. GRAHAM. You were working at it, were you?\nCOL. HAWKINS. Yes, sir.\nMR. GRAHAM. Knowing, as you did, that a picric-acid plant must necessarily be only for use and operation during the war and that after the war was over you would have no further use for such a plant, why were not those buildings made of temporary character, such as would suffice for the period of the war and to be abandoned after the war was over?",
+        "It had been the original intention of the company to locate at Hanover Farms, 10 miles west of this place, and work was begun, when it was discovered that the water used at the plant came from the same stream that supplies Camp Dix, and the work was stopped on orders from the War Department. Immediately the board of trade put the matter in the hands of Mr. Holman, Mr. Blecher, and Mr. Van Ness, who secured options on this tract with the result so far achieved.",
+        "MR. GRAHAM. Did you build buildings there?\nCOL. HAWKINS. We started a plant there in March, 1918, and we went into active operation in July, and very complete operations by the time the armistice was signed. Following that the plant was turned over to the commanding officer and it is now a permanent ordnance plant.\nMR. GRAHAM. Is it proposed to keep this permanently?\nCOL. HAWKINS. Yes, sir; that was turned over to the commanding officer, Col. Miles, and he is doing a certain amount of loading there to-day.\nMR. GRAHAM. Loading what; shells?",
+        "MR. GRAHAM. Are there any contracts except these two that you have personal knowledge of?\nCOL. HAWKINS. You have mentioned the plant marked Hammonton; we call that Amatol, N.J.\nMR. GRAHAM. Do you know about that personally?\nCOL. HAWKINS. Yes, sir.\nMR. GRAHAM. That is where the Government is acquiring a plant of 6,000 acres?\nCOL. HAWKINS. Yes, sir.\nMR. GRAHAM. A loading plant?\nCOL. HAWKINS. Yes, sir.\nMR. GRAHAM. Loading what?\nCOL. HAWKINS. Shells; principally 75's.\nMR. GRAHAM. Is it finished?",
+        "In April, 1917, when the United States declared war on Germany, and began the work of enlarging the Army and Navy and providing for the needed supply of food, clothing and munitions, its greatest task was to provide for the manufacture of munitions. The needed men were here; it only remained to draft and drill them. Food and clothing were being produced; it only remained to stimulate production. But to provide for an ample supply of munitions new factories had to be built and peacetime works transformed into gun and shell producers.",
+        "A detailed description of the construction is recorded by Victor F. Hammel in the Construction and Operation of a Shell Loading Plant and the Town of Amatol, New Jersey, commonly known as the “Amatol book”. In total, 1,600 acres had to be cleared for the plant, and 38 acres had to be cleared and 255 acres trimmed for the town. This was no easy task. The land was mostly wooded with some acres of swamp and was difficult to clear due to a “dense, tangled nature of growth.” The initial workforce included forty men, and within the first week, the",
+        "Other sites were considered, including Toms River, Lakehurst, Lacey, and Hammonton. Ultimately, Hammonton was selected. Although no definite source can be cited as to why Hammonton was selected over the other three sites, major reasons did include the potential quality of town life and the design of a safety zone. Additional testimony by Lieutenant Colonel Hawkins reveals this consideration: “We had to build rather attractive accommodations at Amatol. We had to make it just as attractive as we could in order to get people to stay there;",
+        "MR. GRAHAM. Now, let us see about this loading plant. In times of peace is there any purpose for any such plant?\nCOL. HAWKINS. Yes; we have to have some loading facilities. We have done a good deal of it by contractors.\nMR. GRAHAM. How is that?\nCOL. HAWKINS. We have done some by contractors and some in our establishments.\nMR. GRAHAM. Is it the purpose of the Government to try to run this institution in peace times?\nCOL. HAWKINS. Yes, sir.\nMR. GRAHAM. At Amatol?",
+        "COL. HAWKINS. They had it leased with the right to purchase it.\nMR. GRAHAM. They were leasing it at $8 an acre; how long did that continue?\nCOL. HAWKINS. I do not know; I assume you have the correct figures there.\nMR. GRAHAM. They do not say how long it lasted [reading]:\n  *July 17, 1918, Ordnance requests purchase of 6,000 acres at Hammonton, N.J., which has been leased at $8 per acre with privilege of purchase at $38 per acre.*\n  \nDo you know how long that lease ran before it expired?"
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_book/p-07.txt",
+          "_id": "4289daab95474a85be907e6c1c5567ee",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-07.txt",
+          "_id": "71eb748135ee45939e1f2eb8fdf05f4b",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_misc/2014-4-11_amatol_the_town_south_jersey_editorial_2014.txt",
+          "_id": "0be609cf7e9347bdb8176565dfa4b898",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_misc/2016-10-13_amatol_lost_history_summary.txt",
+          "_id": "8d415a287e8145888362c8c92f01d76b",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_sojourn/amatol_sojourn_article.txt",
+          "_id": "e9e99b32dce349e183220934aa7dd375",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-10-08, 6, Philadelphia Inquirer, explosion at Gillespie relocates workers to Amatol.txt",
+          "_id": "aed01006642947e3aa5170364054269a",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 511.txt",
+          "_id": "ae71eedb4a584b0a947270847707b7ef",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-02-21, 7, Asbury Park Press, new locations for Atlantic Loading Co.txt",
+          "_id": "120ed917258241d1998f1ce52987d848",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 490.txt",
+          "_id": "4b12fecad54c48a19e8f7f5a4dab20b5",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 490.txt",
+          "_id": "cce1480f48e24908b8dc4aec1a5225ba",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-14.txt",
+          "_id": "90a0f8dc479b43888af32269f7dc7735",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_sojourn/amatol_sojourn_article.txt",
+          "_id": "57cec07500704d4db28202822e1d0926",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_sojourn/amatol_sojourn_article.txt",
+          "_id": "589a8d6a08f94053b196793dcf156c60",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 493.txt",
+          "_id": "7951d5e6724a4e27bcc8e868ae7fc8ff",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 491.txt",
+          "_id": "3e61d6c64e064405912ed9b5ad7bb8ce",
+          "_collection_name": "AmatolDocs"
+        }
+      ],
+      "latency": 2.03,
+      "tokens": 2943,
+      "cost": 0.000326,
+      "timestamp": "2025-08-05 02:12:51"
+    },
+    {
+      "prompt_number": 3,
+      "question": "Y. M. C. A. what is it?",
+      "response": "Y. M. C. A. stands for the Young Men's Christian Association. It is an organization that provides various recreational, educational, and social services, often including facilities like auditoriums, recreation halls, gyms, swimming pools, and other amenities for community members. In the context provided, the Y. M. C. A. is part of a large industrial town or complex, offering recreational and welfare services to workers and residents.",
+      "token_usage": {
+        "completion_tokens": 87,
+        "prompt_tokens": 2088,
+        "total_tokens": 2175
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "One projected group of buildings, some completed, others moving towards completion, is a Y. M. C. A. unit, including swimming pool, gymnasium with stage, bowling alley, billiard rooms and refreshment and lounging rooms.\n\nWhile the general residence section centers about Liberty Court, with its commercial shops and its commodious theatre, the offices occupy an area by themselves.",
+        "4 Y.M.C.A.’s, 11 individual residences, 33 multiple houses, 227 workmen’s houses, 1 post office, 1 school house, 2 fire houses, 444 tent tops, 96 two-roomed family apartments, 179 four-roomed family apartments, 23 three-roomed family apartments. On average, there were four buildings built per day, which was a remarkable speed. The final workforce included over 5,000 construction workers.",
+        "a fine address by Charles Brand, of New York city, and George M. Wade, of the Y. M. C. A., who spent nine months in France.",
+        "The first task of these three interests was to create the organization needed for the new work. As it stands to-day, the organization of the Atlantic Loading Company covers all the various phases of its work, including finance, male and female employment, accounting, engineering, purchasing, construction, operating, housing, commissary, medical work, sanitation and welfare. In all of these departments the greatest efficiency has been developed.",
+        "A city with all modern improvements, located three miles from plant, with electric lights, fire department, police department, modern sewage system, modern water plant, Y. M. C. A. auditorium, recreation halls, bowling alleys, etc.\n\nIt is estimated that the permanent population of the town of Amatol will be over 10,000 people.\n\nFor further particulars, apply Renting Agent.\n\nATLANTIC LOADING CO. Hammonton, N.J.",
+        "ORGANIZATION\n\"With any large undertaking the keynote to success is organization,\" and the efficiency of an organization depends upon the correct division of the work in hand among several departments and the proper co-ordination of those departments one with another. In the Amatol project organization was particularly vital because of the rapidity with which the work had to be done and of the many new problems presented.",
+        "ATLANTIC LOADING CO. HOLDS FLAG RAISING\n\nPatriotic Programme Marks Celebration of Labor Day at Magnolia\n\nSpecial to The Inquirer.\n\nHAMMONTON, N. J., Sept. 2—Labor Day was observed at the big munition plant of the Atlantic Loading Company with exercises of a highly patriotic character. The exercises were arranged by John A. Broadhard and A. A. Patterson, of the Y. M. C. A. Chief of Police Edward J. D. Wyre, acting as master of ceremonies.",
+        "Structures (continued)\nDormitories and bunkhouses—male: 98\n\nDormitories—female: 21\n\nMiscellaneous buildings: 140\n\nArmy barracks: 24\n\nY.M.C.A.'s: 4\n\nIndividual residences: 11\n\nMultiple houses: 33\n\nWorkmen’s houses: 227\n\nPost office: 1\n\nSchool house: 1\n\nFire houses: 2\n\nTent tops: 444\n\nFamily apartments—two rooms: 96\n\nFamily apartments—four rooms: 179\n\nFamily apartments—three rooms: 23\n\nMISCELLANEOUS\nSteel required for plant buildings: 6,000 tons\n\nSquare feet of plaster board: 1,350,000\n\nSquare feet of “Composite” metal lath: 4,000,000",
+        "marvels of American engineering achievement. The history of the work is a story of the accomplishment of brain power, engineering talent and the genius of American business organization, which reflects the highest credit upon all concerned.",
+        "AMATOL ARSENAL",
+        "AMATOL ARSENAL.",
+        "In addition to the plant proper there was built a model town,  \nAmatol, capable of housing 5,000 employees. The houses were all  \narranged and constructed. There are a church, a post office, two  \nschoolhouses, a commodious theater building, a Y. M. C. A. build-  \ning, a laundry, an ice plant, stores and shops, a swimming pool, bil-  \nliard rooms, tennis courts, and athletic fields. Two units provide",
+        "```markdown Amazed at the transformation, and, with few exceptions entirely ignorant of its cause, the people immediately began diligent inquiries and were amazed to learn that their town had been chosen as the directing center of a great industrial project, the construction of which will begin tomorrow morning.",
+        "The history of Amatol begins in December 1917 with the incorporation of the Atlantic Loading Company. Acting as an agent of the United States Government, the Atlantic Loading Company was contracted to construct a large munitions plant and an accompanying town to house the workers. In early 1918, the Atlantic Loading Company planned to build the munitions plant and town near Camp Dix, but because of concerns over water pollution, another location had to be selected. In addition, there were also concerns over the safety of soldiers at Camp Dix",
+        "that this corporation may be behind the new undertaking."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_book/p-182b.txt",
+          "_id": "eff7cea5642448bd90a910ccfe25e7ee",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_sojourn/amatol_sojourn_article.txt",
+          "_id": "2799e1a2a1644bc4ba851d2dc12ed3a4",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-09-03, 2, Philadelphia Inquirer, patriotic Labor Day observation.txt",
+          "_id": "cb7c0308daae46d4aff26fb196bf5f6b",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-16.txt",
+          "_id": "f1d043e450f84fb49144bfd997334c0a",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-08-25_Amatol_advertisement_Philadelphia_Inquirer.txt",
+          "_id": "cfc9725afedb4975a09188eb32a521ad",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-25.txt",
+          "_id": "e91665c3bec148db967d7b5de504c1a1",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-09-03, 2, Philadelphia Inquirer, patriotic Labor Day observation.txt",
+          "_id": "54d3bb9d2fab4342a51f3207e994e8ce",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-18.txt",
+          "_id": "42f2608c3a9c4c12962f9e8fcf290c6f",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_book/p-07.txt",
+          "_id": "d3d48e0222bb4306836733fbfed394b5",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/annual_reports/annual_report_amatol_1919.txt",
+          "_id": "d3704101a7e341b0bb055d924d3367df",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/annual_reports/annual_report_amatol_1920.txt",
+          "_id": "571d179f66e041898b2d7dfbf0f54bd2",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/annual_reports/annual_report_amatol_1919.txt",
+          "_id": "6a901a2b1ab142eabf5bf604672d1405",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-03-07, 1, Tuckerton Beacon, new site selected.txt",
+          "_id": "c4078515c7ba41b59b071bad87804e36",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/amatol_sojourn/amatol_sojourn_article.txt",
+          "_id": "f07f4a8ceb274beb962690414d219665",
+          "_collection_name": "AmatolDocs"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-03-04, 2, Asbury Park Press, location selection.txt",
+          "_id": "61eeb0bf064a4da3a809df345b41d0fb",
+          "_collection_name": "AmatolDocs"
+        }
+      ],
+      "latency": 1.94,
+      "tokens": 2175,
+      "cost": 0.000244,
+      "timestamp": "2025-08-05 02:12:53"
+    }
+  ]
+}

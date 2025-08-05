@@ -1,0 +1,423 @@
+{
+  "name": "BM25",
+  "summary": {
+    "total_runtime": 23.96,
+    "avg_latency": 2.18,
+    "total_tokens": 8044,
+    "total_queries": 11,
+    "total_cost": 0.001321,
+    "avg_tokens_per_query": 731.27
+  },
+  "latencies": [
+    1.45,
+    0.83,
+    1.0,
+    1.52,
+    1.34,
+    3.37,
+    3.88,
+    2.55,
+    2.37,
+    4.4,
+    1.25
+  ],
+  "evaluation_result": {
+    "context_recall": 0.9394,
+    "faithfulness": 0.9318,
+    "answer_relevancy": 0.756,
+    "context_entity_recall": 0.232
+  },
+  "evaluation_cost": {
+    "eval_model": "gpt-4.1-nano",
+    "eval_tokens": 99736,
+    "eval_cost": 0.014843
+  },
+  "prompt_logs_path": "historical_docs_retriever_logs/bm25_logs.json",
+  "prompt_logs": [
+    {
+      "prompt_number": 1,
+      "question": "Who was JAMES BLAINE WALKER and what was his role in relation to rapid wartime industrial mobilization?",
+      "response": "James Blaine Walker was the Secretary of the Public Service Commission for the 1st District of New York and an author known for works such as \"Fifty Years of Rapid Transit.\" Based on the provided context, there is no direct information linking him specifically to the role of rapid wartime industrial mobilization or detailing his contributions in that area. The excerpts focus more on industrial organization and the rapid construction of military-related facilities, such as shell loading plants and associated towns, rather than on Walker's personal involvement in mobilization efforts.\n\nTherefore, I do not have enough information to state what his role was in relation to rapid wartime industrial mobilization.",
+      "token_usage": {
+        "completion_tokens": 130,
+        "prompt_tokens": 455,
+        "total_tokens": 585
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "INTRODUCTION\nBY JAMES BLAINE WALKER\nSecretary Public Service Commission, 1st Dist. New York; Author of \"Fifty Years of Rapid Transit,\" etc.",
+        "4.7 inch plant, 6 inch plants, 8 inch plant, hand grenade plant, booster plant, and rifle grenade plant. Amatol was a great example of the newly emerging discipline of industrial organization. Though no direct attribution in given in the book to specific theorists of efficient industrial production a great emphasis is placed on the \"perfect organization, methods and equipment\" required to achieve the record production accomplished at Amatol.",
+        "The enterprise combined two separate and distinct undertakings, either of which in itself would require an organization embracing high skill, initiative and intensive working power. One was the rapid construction of a large shell loading plant, the other the building of a town to provide proper quarters for the thousands of workers whose employment was contemplated. To meet the requirements of the Ordnance Department the plant had to be brought to a producing basis at the earliest day possible, and to do this the town had to be built and made",
+        "The impression given by a first view of Amatol is that of a well-kept suburban settlement. The town was not thrown together merely to put roofs and walls around its working people at night, but was built to keep its population satisfied with its surroundings and living conditions and tuned for the rapid production for which the establishment was designed."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_book/p-07.txt"
+        },
+        {
+          "source": "data/amatol_misc/2016-10-13_amatol_lost_history_summary.txt"
+        },
+        {
+          "source": "data/amatol_book/p-14.txt"
+        },
+        {
+          "source": "data/amatol_book/p-181b.txt"
+        }
+      ],
+      "latency": 1.45,
+      "tokens": 585,
+      "cost": 9.8e-05,
+      "timestamp": "2025-08-05 02:16:19"
+    },
+    {
+      "prompt_number": 2,
+      "question": "Who was Mr. Hammel and what role did he play in the context of wartime industrial development during World War I?",
+      "response": "Based on the provided context, there is no information about a person named Mr. Hammel or his role in wartime industrial development during World War I. Therefore, I do not know who Mr. Hammel was or what role he played in that context.",
+      "token_usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 613,
+        "total_tokens": 665
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "The Atlantic Loading Company is the tri-party control of O. J. Salisbury, of Salt Lake City, Utah; J. D. Evans, of the Evans Engineering Corporation; and the Electric Bond & Share Company. Both Mr. Salisbury and Mr. Evans were fully equipped for the great undertaking, having had long and varied experience in the financing and creation of extensive industrial developments, mining operations and public utility enterprises. The Electric Bond & Share Company is...",
+        "It had been the original intention of the company to locate at Hanover Farms, 10 miles west of this place, and work was begun, when it was discovered that the water used at the plant came from the same stream that supplies Camp Dix, and the work was stopped on orders from the War Department. Immediately the board of trade put the matter in the hands of Mr. Holman, Mr. Blecher, and Mr. Van Ness, who secured options on this tract with the result so far achieved.",
+        "MR. GRAHAM. Gave power for what?\nCOL. HAWKINS. Gave power to the Secretary of War to buy land for purposes of this kind.\nMR. GRAHAM. General power?\nCOL. HAWKINS. Well, he had ample power before to buy cantonments and camp sites and then on May 11, 1918, they gave broader powers, and then we did begin to negotiate for the purchase of various plants and on the 22d of May the Secretary of War delegated authority in the matter of procuring real estate to the Real Estate Service under the Purchase, Storage and Traffic Division.",
+        "More than 2,300 acres in the state-designated Pinelands were preserved in the past year, including more than 500 acres in Mullica Township around the historic Amatol munitions plant that briefly played a role in World War I, according to a Pinelands Commission report.\nThe newly preserved land brings the total Pinelands area preserved to 463,000 acres, said Pinelands Commission Chief Planner Susan Grogan."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_book/p-14.txt"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-02-21, 7, Asbury Park Press, new locations for Atlantic Loading Co.txt"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 492.txt"
+        },
+        {
+          "source": "data/amatol_misc/2017-10-14_amatol_article.txt"
+        }
+      ],
+      "latency": 0.83,
+      "tokens": 665,
+      "cost": 8.2e-05,
+      "timestamp": "2025-08-05 02:16:21"
+    },
+    {
+      "prompt_number": 3,
+      "question": "Y. M. C. A. what is it?",
+      "response": "Y. M. C. A. stands for the Young Men's Christian Association. It is an organization that provides community support, recreational facilities, and welfare services, often including activities like gyms, swimming pools, and recreation halls, as mentioned in the context.",
+      "token_usage": {
+        "completion_tokens": 51,
+        "prompt_tokens": 524,
+        "total_tokens": 575
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "ATLANTIC LOADING CO. HOLDS FLAG RAISING\n\nPatriotic Programme Marks Celebration of Labor Day at Magnolia\n\nSpecial to The Inquirer.\n\nHAMMONTON, N. J., Sept. 2—Labor Day was observed at the big munition plant of the Atlantic Loading Company with exercises of a highly patriotic character. The exercises were arranged by John A. Broadhard and A. A. Patterson, of the Y. M. C. A. Chief of Police Edward J. D. Wyre, acting as master of ceremonies.",
+        "a fine address by Charles Brand, of New York city, and George M. Wade, of the Y. M. C. A., who spent nine months in France.",
+        "One projected group of buildings, some completed, others moving towards completion, is a Y. M. C. A. unit, including swimming pool, gymnasium with stage, bowling alley, billiard rooms and refreshment and lounging rooms.\n\nWhile the general residence section centers about Liberty Court, with its commercial shops and its commodious theatre, the offices occupy an area by themselves.",
+        "A city with all modern improvements, located three miles from plant, with electric lights, fire department, police department, modern sewage system, modern water plant, Y. M. C. A. auditorium, recreation halls, bowling alleys, etc.\n\nIt is estimated that the permanent population of the town of Amatol will be over 10,000 people.\n\nFor further particulars, apply Renting Agent.\n\nATLANTIC LOADING CO. Hammonton, N.J."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/newspaper_articles_1918/1918-09-03, 2, Philadelphia Inquirer, patriotic Labor Day observation.txt"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-09-03, 2, Philadelphia Inquirer, patriotic Labor Day observation.txt"
+        },
+        {
+          "source": "data/amatol_book/p-182b.txt"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-08-25_Amatol_advertisement_Philadelphia_Inquirer.txt"
+        }
+      ],
+      "latency": 1.0,
+      "tokens": 575,
+      "cost": 7.3e-05,
+      "timestamp": "2025-08-05 02:16:22"
+    },
+    {
+      "prompt_number": 4,
+      "question": "What does the history say about American labor and their living conditions?",
+      "response": "The history indicates that American laborers have a strong desire not just to survive but to live well. Their living conditions are closely linked to their enthusiasm for work; when workers are housed in attractive and comfortable buildings, their motivation and productivity are improved. Conversely, housing workmen in subpar conditions is seen as a fundamental error. Overall, the historical perspective emphasizes the importance of decent living conditions for laborers as a crucial factor in their well-being and the success of large-scale projects.",
+      "token_usage": {
+        "completion_tokens": 96,
+        "prompt_tokens": 440,
+        "total_tokens": 536
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "Closing Reflection\nThe history of this community has again demonstrated that American labor wants not merely to exist, but to live; that upon living conditions is dependent enthusiasm for work; that to house workmen in buildings that are not both attractive and comfortable is a fundamental error.",
+        "marvels of American engineering achievement. The history of the work is a story of the accomplishment of brain power, engineering talent and the genius of American business organization, which reflects the highest credit upon all concerned.",
+        "In the following pages Mr. Hammel, the Company's Chief Engineer, and a Member of the American Society of Civil Engineers, has creditably presented an all-too-brief history of this great undertaking, which includes an interesting description of the plant and the town, their construction, operation, capacity, and the efficient organization which made them possible. It is eminently fitting that a permanent record should be made of the achievements of the Company, which may well be proud of its work, for success never attended a larger undertaking",
+        "Construction naturally was the first thing on the programme. In all construction the two main factors are labor and materials. Even in normal times these factors are difficult problems in any large undertaking. In the early part of the year 1918, with the whole country absorbed in war work and with normal conditions completely upset, they presented ten-fold more difficulties. To get labor with which to build its plant and town the Company was compelled to go into a labor market booming from unprecedented demand and to bid against high wages in"
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_book/p-182b.txt"
+        },
+        {
+          "source": "data/amatol_book/p-07.txt"
+        },
+        {
+          "source": "data/amatol_book/p-07.txt"
+        },
+        {
+          "source": "data/amatol_book/p-27.txt"
+        }
+      ],
+      "latency": 1.52,
+      "tokens": 536,
+      "cost": 8.2e-05,
+      "timestamp": "2025-08-05 02:16:23"
+    },
+    {
+      "prompt_number": 5,
+      "question": "So like when US declared war on Germany in 1917, they had to make lots of munitions and stuff, right, and that was a big deal for Germany too, right?",
+      "response": "Yes, when the United States declared war on Germany in April 1917, there was a significant effort to ramp up the production of munitions to support the war effort. This involved building new factories, including large-scale munitions plants like the one at Amatol, and establishing towns to house the workers. This rapid expansion of munitions manufacturing was indeed a big deal for Germany, as it helped the Allies strengthen their military capabilities and maintain an advantage in the war.",
+      "token_usage": {
+        "completion_tokens": 98,
+        "prompt_tokens": 700,
+        "total_tokens": 798
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "In 1917, the US entered the War. Then, in 1918, the US built a plant to supply munitions to the armed forces. It purchased 6000 acres of land a few miles east of Hammonton, NJ, and built a munitions plant and a town to house the 10,000-20,000 plant workers. The plant made munitions of many different types and sizes, and was called Amatol.\n\nThe town of Amatol was built two miles away. This distance was to protect the workers and families in the event of an accident at the plant.",
+        "In April, 1917, when the United States declared war on Germany, and began the work of enlarging the Army and Navy and providing for the needed supply of food, clothing and munitions, its greatest task was to provide for the manufacture of munitions. The needed men were here; it only remained to draft and drill them. Food and clothing were being produced; it only remained to stimulate production. But to provide for an ample supply of munitions new factories had to be built and peacetime works transformed into gun and shell producers.",
+        "COL. HAWKINS. I think they were built just as cheaply as they could. That is my observation of the plants; the greatest expense was in machinery, piping, and all that.\nMR. GRAHAM. What was the necessity for building a village or town at each of those plants when you knew that it was going to be abandoned after the war was over? And why did you put in sewerage and lights and waterworks and moving-picture shows and all that sort of thing—what was that for?",
+        "MR. GRAHAM. Was it after the armistice?\nCOL. HAWKINS. No, sir; it was in September of 1918, I should think. But our original submission of the whole scheme was made in November of 1917, and the contracts were let to most of these companies on the 3rd of December, 1917, and the first one in operation that I recollect was the Gillespie Co. loading plant at Morgan, N.J., and the second one in operation was the Atlantic Loading Co. plant and the third the California loading plant; I am unable to state when the Penneman plant got into operation."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_misc/2014-4-11_amatol_the_town_south_jersey_editorial_2014.txt"
+        },
+        {
+          "source": "data/amatol_book/p-14.txt"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 511.txt"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 493.txt"
+        }
+      ],
+      "latency": 1.34,
+      "tokens": 798,
+      "cost": 0.000109,
+      "timestamp": "2025-08-05 02:16:24"
+    },
+    {
+      "prompt_number": 6,
+      "question": "How did the company town and community development of Amatol relate to its town planning and the safety measures implemented during its construction?",
+      "response": "The company town and community development of Amatol were closely related to its town planning and safety measures. The planners of Amatol aimed to create a well-designed, attractive community that was more than just a collection of buildings; they incorporated principles of town planning used by major architects to ensure the town was both functional and visually appealing. For example, they adopted a consistent and thoughtful layout, such as maintaining a rule of about twelve houses per net acre, which allowed for ample gardens, prevented crowding, and contributed to the overall aesthetic and livability of the town.\n\nIn terms of safety and operational efficiency, the development involved careful selection of sites for barracks and other structures to accommodate workers during construction, indicating an organized approach to community management and safety. The town was planned not only to house its residents comfortably but also to support rapid industrial production while maintaining a high quality of living. Overall, Amatol’s development integrated town planning principles aimed at creating a functional, attractive, and safe environment conducive to both worker satisfaction and industrial efficiency during its construction period.",
+      "token_usage": {
+        "completion_tokens": 212,
+        "prompt_tokens": 524,
+        "total_tokens": 736
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "Village near Camden, New Jersey was also built during World War. They attempted to combine the best features of the town and the country.  Comparison with similar installations suggests the designers of Amatol were familiar with the principles of town planning used by the major architects of the time.  Great pains were taken to build a town that workers would find attractive and stimulating.",
+        "```markdown Options have been secured on the entire town of Elwood, including stores and residences, and the whole hamlet will in all probability be purchased by the big steel company behind the project for housing its thousands of employees during the construction of the plant.\n\nBuilding contractors visited the hamlet during the day, picking out the most desirable sites for barracks for workmen and other structures which will be used while the work of erection is going on.",
+        "The first impressive view of Liberty Court as one enters the town through West J Street is the keynote of the complete scheme. In the planning of the town thought was given to its general attractiveness as well as to the quick housing of its people. It was designed to be a town rather than a group of buildings without idea of symmetry. The rule of about twelve houses to the net acre—that is, land, excluding road—was generally adopted as the ideal spacing to afford ample room for gardens, to prevent an appearance of crowding and to minimize the",
+        "The impression given by a first view of Amatol is that of a well-kept suburban settlement. The town was not thrown together merely to put roofs and walls around its working people at night, but was built to keep its population satisfied with its surroundings and living conditions and tuned for the rapid production for which the establishment was designed."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_misc/2016-10-13_amatol_lost_history_summary.txt"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-03-07, 1, Tuckerton Beacon, new site selected.txt"
+        },
+        {
+          "source": "data/amatol_book/p-181b.txt"
+        },
+        {
+          "source": "data/amatol_book/p-181b.txt"
+        }
+      ],
+      "latency": 3.37,
+      "tokens": 736,
+      "cost": 0.000137,
+      "timestamp": "2025-08-05 02:16:26"
+    },
+    {
+      "prompt_number": 7,
+      "question": "How did the wartime industrial production at amatol relate to the us involvement in WW1 and how did the town planning support the war effort?",
+      "response": "The wartime industrial production at Amatol was strongly connected to the United States' involvement in World War I. The plant at Amatol exemplified the emerging discipline of industrial organization, focusing on \"perfect organization, methods and equipment\" to maximize record-breaking production of munitions, such as bombs and grenades. The development of various facilities like the 4.7-inch, 6-inch, 8-inch plants, as well as grenade and booster plants, highlights efforts to rapidly scale up the manufacturing of explosive devices, which was critical to supporting the war effort.\n\nTown planning played a significant supportive role in facilitating this massive industrial effort. To accommodate the workforce and ensure efficient operations, the government and industry constructed extensive housing, infrastructure, and amenities—such as sewerage, waterworks, roads, and entertainment facilities like picture shows. These developments aimed to create self-sufficient communities at each plant, ensuring workers could live comfortably and efficiently close to their workplaces. Even knowing that some of these towns would be abandoned after the war, the investment in infrastructure was justified by the urgent need for rapid industrial output, demonstrating a strategic approach to mobilize and sustain wartime production seamlessly.\n\nIn summary, wartime industrial production at Amatol was directly linked to the US's mobilization efforts during WWI, emphasizing efficiency and organization, while town planning facilitated the rapid deployment, housing, and organization of the workforce essential for maximizing production and supporting the overall war effort.",
+      "token_usage": {
+        "completion_tokens": 293,
+        "prompt_tokens": 706,
+        "total_tokens": 999
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "4.7 inch plant, 6 inch plants, 8 inch plant, hand grenade plant, booster plant, and rifle grenade plant. Amatol was a great example of the newly emerging discipline of industrial organization. Though no direct attribution in given in the book to specific theorists of efficient industrial production a great emphasis is placed on the \"perfect organization, methods and equipment\" required to achieve the record production accomplished at Amatol.",
+        "COL. HAWKINS. The Mays Landing plant has 5,000 acres; the Morgan plant, I am not sure, but I should think that was about 5,000. I have been there and all over it; the Old Bridge plant, the California Loading Co. plant, is quite small comparatively speaking—about 1,200 acres; the Penneman plant as I recollect, is 4,000 or 5,000 acres; we lease that.\nMR. GRAHAM. Now, prior to this war how many loading plants did we have?\nCOL. HAWKINS. We hadn’t any. We had an experimental plant at Pickatinny arsenal, and Penneman did some.",
+        "MR. GRAHAM. Where is it?\nCOL. HAWKINS. It is 25 miles from Atlantic City.\nMR. GRAHAM. Are you running that town at present?\nCOL. HAWKINS. No; we shut it down, except absolute quarters for the people we have there.\nMR. GRAHAM. How many houses did you build there?\nCOL. HAWKINS. I can show you a complete report on it; the kind of houses and the amount spent and the roads and everything else.\nMR. GRAHAM. Do you know approximately how much you spent on that place over there?\nCOL. HAWKINS. About $14,000,000.",
+        "COL. HAWKINS. I think they were built just as cheaply as they could. That is my observation of the plants; the greatest expense was in machinery, piping, and all that.\nMR. GRAHAM. What was the necessity for building a village or town at each of those plants when you knew that it was going to be abandoned after the war was over? And why did you put in sewerage and lights and waterworks and moving-picture shows and all that sort of thing—what was that for?"
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_misc/2016-10-13_amatol_lost_history_summary.txt"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 492.txt"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 493.txt"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 511.txt"
+        }
+      ],
+      "latency": 3.88,
+      "tokens": 999,
+      "cost": 0.000188,
+      "timestamp": "2025-08-05 02:16:29"
+    },
+    {
+      "prompt_number": 8,
+      "question": "How did the co-ordination of labor and machinery for efficient production contribute to the construction and operation of the shell loading plant during WW1?",
+      "response": "The coordination of labor and machinery was crucial in ensuring the efficient production and operation of the shell loading plant during WW1. By integrating advanced machinery, such as belt conveyors, the plant was able to create a continuous and streamlined process for loading shells, significantly reducing time and labor costs. This conveyor system allowed shells to move seamlessly through different stages of production, enabling large-scale and economical manufacturing—up to 16,000 shells per day in an eight-hour period.\n\nFurthermore, effective planning and organization facilitated the flexible layout of the plant, allowing it to adapt to government requirements, such as loading different types of shells (e.g., 75 mm shells and aerial bombs). The development and use of specialized machinery, like the extruding machine for loading drop bombs with Amatol, exemplified the innovative coordination between labor efforts and machinery to meet diverse production needs.\n\nOverall, the strategic synchronization of skilled labor with advanced machinery and thoughtful layout design maximized productivity, contributed to large-scale wartime ammunition supply, and supported the rapid construction and operation of the shell loading plant during WW1.",
+      "token_usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 559,
+        "total_tokens": 774
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "The achievements of 1918 showed how well this work had been done in 1917. Once the lathes and the forges were working it became necessary to supply the high explosives with which to charge the shell they turned out, and to provide extensive machinery for doing the charging. Contracts were made for the production on a vast scale of trinitrotoluol, the destructive explosive used in modern big gun ammunition, and other contracts for the construction of plants for the loading of the shell as fast as the mills turned them out.",
+        "It was in contemplation of this that the Atlantic Loading Company was incorporated under the laws of the State of Maine in December, 1917. The stated purposes of the corporation were: first, to construct and operate a shell loading plant for the production of completed rounds of ammunition and to provide the necessary storage capacity therefor; second, to build a town for the housing of the operatives. The plant was designed to be the largest of its type in the country, providing for the loading of shell of all sizes from 75 mm, to 10-inch",
+        "The Company's engineers were the first to use belt conveyors in the production of shell. To turn out shell in large quantity and economically this operation must be one continuous process from the receiving room to the final stage. The conveyors carry the shell continuously from the first stage to the last with a resultant maximum economy of time and labor. No other plant has used the same system of loading as that worked out by the Atlantic Loading Company.",
+        "The plant reached a production of 16,000 shell of this type in a day of eight hours. However, on account of Government requirements, this unit was compelled to load both 75 mm shell and aerial drop bombs. An index of the flexibility of the layout was the development of the extruding machine for loading drop bombs with Amatol in the 75 mm plant.\n\nThe next unit to start operations was the booster plant; and following this, the 4.7-inch plant."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_book/p-14.txt"
+        },
+        {
+          "source": "data/amatol_book/p-14.txt"
+        },
+        {
+          "source": "data/amatol_book/p-62.txt"
+        },
+        {
+          "source": "data/amatol_book/p-62.txt"
+        }
+      ],
+      "latency": 2.55,
+      "tokens": 774,
+      "cost": 0.000142,
+      "timestamp": "2025-08-05 02:16:33"
+    },
+    {
+      "prompt_number": 9,
+      "question": "Wht is the relashunship between New York City and the amatoal shell plant in New York?",
+      "response": "The relationship between New York City and the Atlantic Shell Plant in New York appears to be indirect. The Atlantic Loading Company, which was formed in New York City, was contracted by the U.S. Government to build and operate the shell loading plant. Although the company originated in New York City, the actual shell loading plant was constructed in southern New Jersey, not within New York City itself. The plant was established to support wartime efforts by manufacturing shells and grenades, and while the company's origins are tied to New York City, the plant's physical location was in New Jersey.",
+      "token_usage": {
+        "completion_tokens": 115,
+        "prompt_tokens": 574,
+        "total_tokens": 689
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "war brought a large portion of it into practical use. The Atlantic Loading Company, a corporation formed in New York City, entered into a contract with the Government to build and operate a shell loading plant as the agent of the Government. The officers of the company immediately began looking for a site for the contemplated plant, and this section of New Jersey attracted their attention. It was comparatively isolated and yet traversed by important railroad lines which afforded ample transportation facilities for men and materials. The soil",
+        "a fine address by Charles Brand, of New York city, and George M. Wade, of the Y. M. C. A., who spent nine months in France.",
+        "In March, 1918, a contract was entered into between the Ordnance  \nDepartment and the Atlantic Loading Co., under which the com-  \npany, as department agent, acquired by lease a tract of 6,000 acres  \nin southern New Jersey and erected and equipped a loading plant  \ncapable of loading 51,000 shell and 100,000 grenades per day. The  \nplant was designed for loading 75-mm, 4.7-inch, 6-inch, 8-inch, and  \n9.2-inch shell and hand and rifle grenades and drop bombs. It has  \nmagazine and warehouse facilities for 8,850,000 pounds of ammonium",
+        "The plant closed down after the war ended and the federal government ordered a series of auctions for\neverything from the equipment in the manufacturing facilities to the buildings in the town between the\nyears 1919 and 1924. Within five years, the town and plant became a virtual memory, with just remnants of\nconcrete found throughout the site and the extant office building along the White Horse Pike, which later\nserved as a New Jersey State Police barracks."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_book/p-07.txt"
+        },
+        {
+          "source": "data/newspaper_articles_1918/1918-09-03, 2, Philadelphia Inquirer, patriotic Labor Day observation.txt"
+        },
+        {
+          "source": "data/annual_reports/annual_report_amatol_1919.txt"
+        },
+        {
+          "source": "data/amatol_misc/2015-10-12_amatol_munitions_noyes_musuem_2015.txt"
+        }
+      ],
+      "latency": 2.37,
+      "tokens": 689,
+      "cost": 0.000103,
+      "timestamp": "2025-08-05 02:16:35"
+    },
+    {
+      "prompt_number": 10,
+      "question": "How did the development and subsequent disappearance of the Amatol munitions factory in New Jersey reflect the United States' wartime efforts during World War I, and what lasting impacts did this have on the local community and historical documentation?",
+      "response": "The development of the Amatol munitions factory in New Jersey reflected the United States' urgent wartime efforts during World War I by showcasing rapid industrial mobilization to produce essential explosives, specifically Amatol, which was invented to conserve TNT supplies. The government quickly established a large-scale plant and an associated community on 6,000 acres of land in the Pine Barrens shortly after the U.S. entered the war in 1918. This project demonstrated the nation's commitment to ramping up wartime production through innovative construction techniques, such as extensive use of concrete, and swift urban planning to support a sizable workforce and their families.\n\nHowever, with the war ending in the same year the factory was operational, the Amatol plant and the accompanying town faced immediate disuse. The town was deserted and the factory was dismantled because the urgent need for such munitions diminished. As most buildings were designed to be temporary, little remained of the original structures, and they were eventually demolished.\n\nThe effects on the local community included the creation of a short-lived, transient town that was quickly abandoned, making it a ghost town today. This history reflects the broader pattern of wartime industrial efforts that spike during a conflict and disappear afterwards, leaving behind only ruins and historical records.\n\nIn terms of lasting impact and historical documentation, the site of Amatol is now a point of historical interest, with ruins and remnants that serve as a reminder of the wartime effort and rapid industrial mobilization. Its brief existence and subsequent disappearance highlight the magnitude and fleeting nature of wartime infrastructure projects, contributing to local historical narratives and serving as a physical testament to America’s wartime response during World War I.",
+      "token_usage": {
+        "completion_tokens": 339,
+        "prompt_tokens": 548,
+        "total_tokens": 887
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "Amatol ruins   57butler / Atlas Obscura User\nAbout\nDuring the last years of World War I, a new explosive was invented to help stretch the depleting stores of TNT. It was called Amatol, and in 1918, shortly after the United States entered the war, a munitions plant and adjacent factory town were established in New Jersey named after the explosive they manufactured.",
+        "Amatol Ghost Town\nIn the woods of New Jersey lie the ruins of a munitions village abandoned after World War I and the remnants of a 1920s wooden racetrack.\nHammonton, New Jersey\nAdded By\nKathleen Butler",
+        "Amatol, New Jersey, was built on 6,000 acres of land in the Pine Barrens. The planned community was short lived: After World War I ended that same year, Amatol became a vacant town. The homes were deserted and the plant shut down. Because most of the buildings were built to be temporary, they were dismantled and little was left behind. The factory was eventually demolished.",
+        "In 1918, a year after the United States entered\nWorld War I, the government purchased 6,000\nacres of land to build a munitions plant and town.\nThe speedy design and extensive use of concrete\nconstruction at Amatol was a major urban\nplanning achievement. In the span of nine\nmonths, the contractor completed houses,\ndormitories, bunk houses, schools, and other\nfacilities to accommodate between 10,000-\n20,000 plant workers and their families. The"
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/amatol_misc/2018-10-16_amatol_article.txt"
+        },
+        {
+          "source": "data/amatol_misc/2018-10-16_amatol_article.txt"
+        },
+        {
+          "source": "data/amatol_misc/2018-10-16_amatol_article.txt"
+        },
+        {
+          "source": "data/amatol_misc/2015-10-12_amatol_munitions_noyes_musuem_2015.txt"
+        }
+      ],
+      "latency": 4.4,
+      "tokens": 887,
+      "cost": 0.00019,
+      "timestamp": "2025-08-05 02:16:38"
+    },
+    {
+      "prompt_number": 11,
+      "question": "How did the Pennsylvania Railroad facilitate the rapid construction and operation of the shell loading plant near Hammonton, New Jersey, as described in the context of the Atlantic Loading Company’s activities during 1918?",
+      "response": "The Pennsylvania Railroad facilitated the rapid construction and operation of the shell loading plant near Hammonton, New Jersey, primarily by providing transportation advantages that supported the logistics and movement of materials and personnel. The plant was located adjacent to and north of the Pennsylvania and Reading railroads, which likely allowed for efficient transportation of raw materials to the plant and finished shells to various destinations. Additionally, the company’s engineers implemented innovative continuous processing systems, such as belt conveyors, to ensure efficient, large-scale production. The proximity to major railroads was a crucial factor in enabling the plant to operate swiftly and effectively during 1918.",
+      "token_usage": {
+        "completion_tokens": 121,
+        "prompt_tokens": 679,
+        "total_tokens": 800
+      },
+      "model_name": "gpt-4.1-nano-2025-04-14",
+      "retrieved_contexts": [
+        "MR. GRAHAM. How many loading plants did you have at the time or have you since acquired?\nCOL. HAWKINS. We have five loading plants.\nMR. GRAHAM. Where are they?\nCOL. HAWKINS. The Atlantic Loading Co., at Hammonton, or Amatol, as we call it; the Gillespie Loading Co. plant at Morgan, near South Amboy, N.J.; that is the plant which blew up on the 4th of October, 1918; the California Loading Co. plant at Old Bridge, Va.; and one other plant in New Jersey at Mays Landing; and Penneman plant in Virginia operated by the Du Pont Co.",
+        "Four large shell loading plants were projected and eventually placed in operation, namely, those of the Bethlehem Loading Co., the T. A. Gillespie Loading Co., the DuPont Engineering Co. and the Atlantic Loading Company. Of these the plant of the Atlantic Loading Company is the largest. It is located at Amatol, New Jersey—a town which came into being to house its workers, and is about 25 miles from Atlantic City, adjacent to and north of the Pennsylvania and the Reading railroads. The site consists of a tract of approximately 6,000 acres of",
+        "The Company's engineers were the first to use belt conveyors in the production of shell. To turn out shell in large quantity and economically this operation must be one continuous process from the receiving room to the final stage. The conveyors carry the shell continuously from the first stage to the last with a resultant maximum economy of time and labor. No other plant has used the same system of loading as that worked out by the Atlantic Loading Company.",
+        "MR. GRAHAM. Was it after the armistice?\nCOL. HAWKINS. No, sir; it was in September of 1918, I should think. But our original submission of the whole scheme was made in November of 1917, and the contracts were let to most of these companies on the 3rd of December, 1917, and the first one in operation that I recollect was the Gillespie Co. loading plant at Morgan, N.J., and the second one in operation was the Atlantic Loading Co. plant and the third the California loading plant; I am unable to state when the Penneman plant got into operation."
+      ],
+      "retrieved_metadata": [
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 492.txt"
+        },
+        {
+          "source": "data/amatol_book/p-14.txt"
+        },
+        {
+          "source": "data/amatol_book/p-62.txt"
+        },
+        {
+          "source": "data/war_expenditures_interview/1919-08-20 War Expenditures p 493.txt"
+        }
+      ],
+      "latency": 1.25,
+      "tokens": 800,
+      "cost": 0.000116,
+      "timestamp": "2025-08-05 02:16:42"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+DISTANCES
+Extreme length of plant: 2 miles
+
+Extreme breadth of plant: 2 miles
+
+Extreme length of town: 1.5 miles
+
+Extreme breadth of town: 1 mile
+
+Length of protective fence: 15 miles
+
+WATER SUPPLY AND SEWERAGE SYSTEM
+Water supply system max capacity: 1,750,000 gals.
+
+Water mains—town: 9 miles
+
+Water mains—plant: 20 miles
+
+Water tanks 50,000 gals.—plant: 6
+
+Water tanks 50,000 gals.—town: 1
+
+Water tanks 10 ft. × 10 ft.—plant: 3
+
+Wells—town: 7
+
+Wells—plant: 3
+
+Sewer mains—town: 11 miles
+
+LIGHT AND POWER SYSTEMS
+Steam-electric station—plant: 1
+
+Steam-electric station—town: 1
+
+Lighting and power wire—plant: 200 miles
+
+Lighting and power wire—town: 50 miles
+
+66,000 volt transmission system: 30 miles
+
+(Atlantic City line 23 miles; Mays Landing line 7 miles)
+
+Electric street lights—town: 130
+
+Yard light—plant: 300
+
+Lights for fence protection: 400
+
+Searchlights: 6
+
+HEATING SYSTEMS
+Mains—plant: 13 miles
+
+Mains—town: 2 miles
+
+Steam heating stations—plant: 5
+
+Steam heating station—town: 1
+
+RAILROADS
+Total ultimate length of track: 50 miles
+
+Locomotives: 10
+
+Passenger coaches: 30
+
+ROADWAYS
+Miles of roadway—plant: 18 miles
+
+Miles of roadway—town: 14 miles
+
+Wood walks—plant: 1 mile
+
+Wood walks—town: 4 miles
+
+TELEPHONES
+Exchanges: 2
+
+Trunk lines: 10 miles
+
+Telephones—plant and town: 385
+
+Ultimate capacity: 1,300 lines
+
+Wire in plant: 25 miles
+
+Wire in town: 25 miles
+
+STRUCTURES
+Floor area in sq. ft.—plant: 2,615,662
+
+Floor area in sq. ft.—town: 778,822
+
+Plant buildings placed end to end would cover: 11 miles
+
+Town buildings placed end to end would cover: 4 miles
+
+Total number of structures: 1,107
+Plant structures: 642
+
+Town structures: 465
+
+Loading buildings: 132
+
+Storage buildings and magazines: 159
+
+Administration buildings: 4
+
+Office buildings: 6
+
+Industrial buildings: 9
+
+Hospitals: 7
+
+Recreation centres: 2
+
+Mess halls: 12
+
+Garages: 4
+
+Warehouses: 7
+
+Railroad structures: 6
+
+Stables: 4
+
+Guardhouses, sentry boxes, searchlights, etc.: 10
+
+Commercial stores: 21
