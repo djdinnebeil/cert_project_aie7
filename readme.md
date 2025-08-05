@@ -9,7 +9,7 @@ It showcases a document-grounded agentic RAG (Retrieval-Augmented Generation) sy
 ## 🔗 Demo Video
 
 Watch the 5-minute demo here:  
-👉 [Loom Walkthrough Video](https://www.loom.com/share/YOUR-VIDEO-LINK)
+👉 [Loom Walkthrough Video](https://www.loom.com/share/7f5316f54bfa402e8cc1d371b34755ae)
 
 ---
 

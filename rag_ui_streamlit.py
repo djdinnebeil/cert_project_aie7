@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage
 import config 
 
 # Testing
-testing = True
+testing = False
 
 from retriever_chain import load_chain
 
